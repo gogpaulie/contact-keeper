@@ -97,6 +97,10 @@ img {
   margin: 0.7rem 0;
 }
 
+.contact-card {
+  border-radius: 10px;
+}
+
 /* List */
 .list {
   margin: 0.5rem 0;
