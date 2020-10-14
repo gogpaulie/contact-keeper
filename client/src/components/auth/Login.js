@@ -67,6 +67,7 @@ const Login = (props) => {
             value={password}
             onChange={onChange}
             required
+            autoComplete='on'
           />
         </div>
 
