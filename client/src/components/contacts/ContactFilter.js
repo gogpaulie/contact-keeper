@@ -20,7 +20,7 @@ const ContactFilter = () => {
     }
   };
   return (
-    <form>
+    <form className='contact-search'>
       <input
         ref={text}
         type='text'

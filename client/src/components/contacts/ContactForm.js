@@ -50,10 +50,8 @@ const ContactForm = () => {
   };
 
   return (
-    <form onSubmit={onSubmit}>
-      <h2 className='text-primary'>
-        {current ? 'Edit Contact' : 'Add Contact'}
-      </h2>
+    <form onSubmit={onSubmit} className='contact-form'>
+      <h2>{current ? 'Edit Contact' : 'Add Contact'}</h2>
       <input
         type='text'
         name='name'
